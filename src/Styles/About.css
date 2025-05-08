@@ -1,0 +1,50 @@
+#Main_About_Div {
+    min-height: 100vh;
+    padding: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: serif;
+}
+
+#Title{
+    display: flex;
+    justify-content: center;
+}
+
+#Contents {
+    animation: fadeSlideIn 2s ease-in-out forwards;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+#MyImg{
+    padding: 14px;
+    margin: 14px;
+    height: 160px;
+    width: 160px;
+    margin-right: 126px;
+    border-radius: 3px;
+    background: gray;
+    background-image: url("../Images/VP.jpeg");
+    background-position: 0px -26px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px 10px gold;
+}
+
+
+
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateZ(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
+    }
+}

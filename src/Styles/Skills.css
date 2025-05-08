@@ -1,0 +1,26 @@
+
+#Main_Skills_Div{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#Cards_Container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.Skill_Card{
+    height: 200px;
+    width: 200px;
+    background: purple;
+}

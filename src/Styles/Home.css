@@ -1,0 +1,101 @@
+#Main_Home_Div {
+    /* padding-top: 80px; */
+    padding: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    min-height: 100vh;
+    overflow-x: hidden;
+
+
+    background-image: url("../Images/Wallpaper_5.jpg");
+    /* animation: slideshow 26s infinite; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+#Home_Content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+
+#Home_Content b {
+    background: linear-gradient(black, magenta);
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+
+/* #MyLogo {
+    height: 160px;
+    width: 160px;
+    border-radius: 3px;
+    background: gray;
+    background-image: url("../Images/VP.jpeg");
+    background-position: 0px -26px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 10px 10px gold;
+} */
+
+
+
+#Role {
+    font-family: monospace;
+    font-size: 24px;
+    word-wrap: break-word;
+}
+
+#Role span{
+    color: magenta;
+}
+
+#Social_Medias {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 26px;
+    padding: 14px;
+}
+
+
+
+
+
+
+@keyframes slideshow {
+    0% {
+        background-image: url("../Images/Wallpaper_1.jpg");
+    }
+
+    20% {
+        background-image: url("../Images/Wallpaper_2.jpg");
+    }
+
+    40% {
+        background-image: url("../Images/Wallpaper_3.jpg");
+    }
+
+    60% {
+        background-image: url("../Images/Wallpaper_4.jpg");
+    }
+
+    80% {
+        background-image: url("../Images/Wallpaper_5.jpg");
+    }
+
+    100% {
+        background-image: url("../Images/Wallpaper_1.jpg");
+    }
+}
