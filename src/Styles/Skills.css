@@ -1,4 +1,4 @@
-#Main_Skill_Div{
+#Main_Skill_Div {
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
@@ -7,14 +7,39 @@
     gap: 126px;
 }
 
+.Skill_Card_List {
+    justify-items: center;
+}
 
-.Skill_Card{
-    height: 200px;
-    width: 200px;
+.Skill_Card {
+    height: 126px;
+    width: 126px;
     align-content: center;
     justify-items: center;
-    /* background: skyblue; */
+    background: skyblue;
 }
+
+.Skill_Card:hover {
+    background: blue;
+    transition: all ease-in-out 1s;
+}
+
+.Skill_Name .hover-text {
+    display: none;
+}
+
+.Skill_Name .default-text {
+    display: inline;
+}
+
+.Skill_Card:hover+.Skill_Name .default-text {
+    display: none;
+}
+
+.Skill_Card:hover+.Skill_Name .hover-text {
+    display: inline;
+}
+
 
 
 .Main_SkillAnimation {
@@ -33,7 +58,7 @@
     border: 1px solid black;
     animation: rotate_3922 1.2s linear infinite;
     background-image: linear-gradient(red, yellow, blue);
-    box-shadow: skyblue 0px 0px 26px 14px,cyan 0px 0px 26px 14px;
+    box-shadow: skyblue 0px 0px 26px 14px, cyan 0px 0px 26px 14px;
 }
 
 .container span {

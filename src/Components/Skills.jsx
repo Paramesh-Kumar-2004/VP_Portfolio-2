@@ -7,9 +7,12 @@ import "../Styles/Skills.css"
 function Skills() {
   return (
     <div id='Main_Skill_Div'>
-      <div className='Skill_Card'>
-        <Skills_Animation Percentage={126} />
-        <h1 className='Skill_Name'>Python</h1>
+      <div className='Skill_Card_List'>
+        <div className='Skill_Card'></div>
+        <h1 class="Skill_Name">
+          <span class="default-text">Python</span>
+          <span class="hover-text">Level</span>
+        </h1> 
       </div>
     </div>
   )
