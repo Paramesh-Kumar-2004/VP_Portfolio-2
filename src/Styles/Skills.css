@@ -13,6 +13,13 @@
     animation: fadeIn 1.5s ease-in-out forwards;
 }
 
+#Python{
+    animation: fadeIn 1s ease-in-out forwards;
+}
+#Pytest{
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
 .Skill_Card {
     height: 100px;
     width: 100px;
