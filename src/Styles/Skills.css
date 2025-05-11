@@ -1,8 +1,26 @@
+#Main_Skill_Div{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 126px;
+}
+
+
+.Skill_Card{
+    height: 200px;
+    width: 200px;
+    align-content: center;
+    justify-items: center;
+    /* background: skyblue; */
+}
+
+
 .Main_SkillAnimation {
     position: relative;
     width: 150px;
     height: 150px;
-    margin: 100px auto;
 }
 
 .container {
@@ -15,6 +33,7 @@
     border: 1px solid black;
     animation: rotate_3922 1.2s linear infinite;
     background-image: linear-gradient(red, yellow, blue);
+    box-shadow: skyblue 0px 0px 26px 14px,cyan 0px 0px 26px 14px;
 }
 
 .container span {

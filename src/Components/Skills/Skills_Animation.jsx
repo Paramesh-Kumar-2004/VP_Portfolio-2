@@ -1,5 +1,6 @@
 import React from 'react'
-import "../../Styles/Skills_Animation.css"
+import "../../Styles/Skills.css"
+
 
 
 function Skills_Animation({ Percentage }) {
@@ -12,5 +13,6 @@ function Skills_Animation({ Percentage }) {
         </div>
     )
 }
+
 
 export default Skills_Animation
