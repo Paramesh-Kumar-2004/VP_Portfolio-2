@@ -3,17 +3,20 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    gap: 126px;
+    justify-content: space-around;
 }
 
 .Skill_Card_List {
     justify-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    animation: fadeIn 1.5s ease-in-out forwards;
 }
 
 .Skill_Card {
-    height: 126px;
-    width: 126px;
+    height: 100px;
+    width: 100px;
+    border-radius: 14px;
     align-content: center;
     justify-items: center;
     background: skyblue;
@@ -39,7 +42,6 @@
 .Skill_Card:hover+.Skill_Name .hover-text {
     display: inline;
 }
-
 
 
 .Main_SkillAnimation {
@@ -101,5 +103,16 @@
 
     to {
         transform: rotate(360deg);
+    }
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
     }
 }
