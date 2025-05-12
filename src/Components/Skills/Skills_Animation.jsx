@@ -5,18 +5,13 @@ import "../../Styles/Skills.css"
 
 function Skills_Animation({ Percentage }) {
     return (
-        <div class="flip-card">
-            <div class="flip-card-inner">
-                <div class="flip-card-front">
-                    <p class="title">FLIP CARD</p>
-                    <p>Hover Me</p>
-                </div>
-                <div class="flip-card-back">
-                    <p class="title">BACK</p>
-                    <p>Leave Me</p>
-                </div>
-            </div>
+        <div class="social-circle">
+            <span class="bubble layer1"></span>
+            <span class="bubble layer2"></span>
+            <span class="bubble layer3"></span>
+            <p class="circle-text">Intermidiate</p>
         </div>
+
     )
 }
 
