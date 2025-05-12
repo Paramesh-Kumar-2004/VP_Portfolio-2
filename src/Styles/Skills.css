@@ -1,7 +1,10 @@
 #Main_Skill_Div{
     min-height: 100vh;
-    align-content: center;
     padding: 14px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 
