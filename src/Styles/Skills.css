@@ -1,157 +1,135 @@
-#Main_Skill_Div {
+#Main_Skill_Div{
     min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.Skill_Card_List {
-    justify-items: center;
-    margin-right: 50px;
-    margin-left: 50px;
-    animation: fadeIn 1.5s ease-in-out forwards;
-}
-
-#Python{
-    background-image: url("../Images/VP.jpeg");
-    background-position: center;
-    background-size: cover;
-    animation: fadeIn 0.6s ease-in-out forwards;
-}
-#Pytest{
-    animation: fadeIn 0.8s ease-in-out forwards;
-}
-#Selenium{
-    animation: fadeIn 1s ease-in-out forwards;
-}
-#HTML_CSS{
-    animation: fadeIn 1.2s ease-in-out forwards;
-}
-#React_js{
-    animation: fadeIn 1.4s ease-in-out forwards;
-}
-#Node_js{
-    animation: fadeIn 1.6s ease-in-out forwards;
-}
-#Express_Js{
-    animation: fadeIn 1.8s ease-in-out forwards;
-}
-#Mysql{
-    animation: fadeIn 2s ease-in-out forwards;
-}
-#MongoDB{
-    animation: fadeIn 2.2s ease-in-out forwards;
-}
-#Git_Github{
-    animation: fadeIn 2.4s ease-in-out forwards;
-}
-#Docker{
-    animation: fadeIn 2.6s ease-in-out forwards;
-}
-
-
-.Skill_Card {
-    height: 100px;
-    width: 100px;
-    border-radius: 14px;
     align-content: center;
-    justify-items: center;
-    /* background: skyblue; */
-}
-
-.Skill_Card:hover {
-    background-image: none;
-    background: blue;
-    transition: all ease-in-out 1s;
-}
-
-.Skill_Name .hover-text {
-    display: none;
-}
-
-.Skill_Name .default-text {
-    display: inline;
-}
-
-.Skill_Card:hover+.Skill_Name .default-text {
-    display: none;
-}
-
-.Skill_Card:hover+.Skill_Name .hover-text {
-    display: inline;
+    padding: 14px;
 }
 
 
-.Main_SkillAnimation {
+.card {
     position: relative;
-    width: 150px;
-    height: 150px;
+    width: 126px;
+    height: 126px;
+    border-radius: 50%;
+    background: #f00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.container {
+.card::before {
+    content: '';
     position: absolute;
     top: 0;
     left: 0;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    border: 1px solid black;
-    animation: rotate_3922 1.2s linear infinite;
-    background-image: linear-gradient(red, yellow, blue);
-    box-shadow: skyblue 0px 0px 26px 14px, cyan 0px 0px 26px 14px;
-}
-
-.container span {
-    position: absolute;
-    border-radius: 50%;
-    height: 100%;
     width: 100%;
-    background-image: linear-gradient(#9b59b6, #84cdfa, #5ad1cd);
-    filter: blur(20px);
+    height: 100%;
+    background: linear-gradient(315deg, #03a9f4, #ff0058);
 }
 
-.container::after {
-    content: "";
+.card::after {
+    content: '';
     position: absolute;
-    top: 25px;
-    left: 25px;
-    width: 100px;
-    height: 100px;
-    background-color: black;
-    border: solid 1px yellow;
+    top: 0;
+    left: 0;
     border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(315deg, #03a9f4, #ff0058);
+    filter: blur(30px);
 }
 
-.Percentage {
+.card b {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 28px;
-    font-weight: bold;
-    color: white;
-    z-index: 10;
-    pointer-events: none;
+    inset: 6px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 2;
 }
 
-@keyframes rotate_3922 {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
+.card img {
+    position: absolute;
+    z-index: 3;
+    scale: 0.8;
+    opacity: 0.25;
+    transition: 0.5s;
 }
 
+.card:hover img {
+    scale: 0.5;
+    opacity: 0.9;
+    transform: translateY(-70px);
+}
 
-@keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
+.card .content {
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: scale(0);
+    transition: 0.5s;
+}
 
-    100% {
-        opacity: 1;
-    }
+.card:hover .content {
+    transform: scale(1);
+    bottom: 25px;
+}
+
+.content .title {
+    position: relative;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1em;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.content .title span {
+    font-weight: 200;
+    font-size: 12px;
+}
+
+.content .sci {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.sci li {
+    list-style: none;
+}
+
+.sci li .fa-brands {
+    width: 14px;
+}
+
+.sci li .fa-facebook {
+    width: 10px;
+}
+
+.sci li a {
+    position: relative;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.2);
+    fill: currentColor;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.sci li a:hover {
+    fill: currentColor;
+    color: rgba(255, 255, 255, 1);
 }
