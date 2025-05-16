@@ -11,6 +11,7 @@
 }
 
 #Title{
-    padding-top: 50px;
-    align-self: center;
+    padding: 65px 65px 0px 65px;
+    /* background: skyblue; */
+    justify-self: center;
 }
