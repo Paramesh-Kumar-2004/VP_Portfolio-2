@@ -13,7 +13,7 @@ function Skills() {
       <div id='Skills_Card'>
 
         <div className='Cards'>
-          <Skills_Animation Level={"80%"} />
+          <Skills_Animation Level={"80%"} IdName={"Python"} />
           <span><h3>Python</h3></span>
         </div>
 

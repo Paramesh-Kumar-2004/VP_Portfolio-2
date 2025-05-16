@@ -1,6 +1,5 @@
 #Main_Skill_Div {
     min-height: 100vh;
-    /* background: green; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -12,20 +11,19 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    gap: 1rem;
 }
 
 .Cards {
     height: 180px;
     width: 250px;
-    /* background: gsray; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-
-.social-circle {
+.Circle {
     position: relative;
     height: 120px;
     width: 120px;
@@ -34,7 +32,6 @@
         0 0 5px rgba(255, 255, 255, 0.5),
         0 5px 15px rgba(0, 0, 0, 0.2);
     backdrop-filter: blur(12px);
-    background-image: url("../Images/VP.jpeg");
     background-position: center;
     background-size: cover;
     overflow: hidden;
@@ -43,6 +40,23 @@
     align-items: center;
     transition: all 0.5s ease;
     cursor: pointer;
+}
+
+
+/* Apply images to individual skills */
+#Python {
+    background-image: url("../Images/VP.jpeg");
+}
+
+#Pytest {
+    background-image: url("../Images/VP.jpeg");
+}
+
+/* On hover, hide background and show text */
+.Circle:hover {
+    background-image: none !important;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
 }
 
 .circle-text {
@@ -56,13 +70,7 @@
     text-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Hover Effects */
-.social-circle:hover {
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(15px);
-}
-
-.social-circle:hover .circle-text {
+.Circle:hover .circle-text {
     opacity: 1;
 }
 
@@ -110,4 +118,3 @@
         opacity: 0.6;
     }
 }
-
