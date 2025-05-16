@@ -18,17 +18,17 @@ function Skills() {
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"60%"} />
+          <Skills_Animation Level={"60%"} IdName={"Pytest"}/>
           <span><h3>Pytest & Selenium</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"80%"} />
+          <Skills_Animation Level={"80%"} IdName={"HTML_CSS"}/>
           <span><h3>HTML & CSS</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"80%"} />
+          <Skills_Animation Level={"80%"} IdName={"React"} />
           <span><h3>React JS</h3></span>
         </div>
 

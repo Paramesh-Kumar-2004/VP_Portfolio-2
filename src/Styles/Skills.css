@@ -34,6 +34,7 @@
     backdrop-filter: blur(12px);
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -45,12 +46,21 @@
 
 /* Apply images to individual skills */
 #Python {
-    background-image: url("../Images/VP.jpeg");
+    background-image: url("../Images/Python.jpeg");
 }
 
 #Pytest {
-    background-image: url("../Images/VP.jpeg");
+    background-image: url("../Images/Pytest.png");
 }
+
+#HTML_CSS{
+    background-image: url("../Images/HTML_CSS.jpeg");
+}
+
+#React{
+    background-image: url("../Images/ReactJs.png");
+}
+
 
 /* On hover, hide background and show text */
 .Circle:hover {
