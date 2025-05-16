@@ -10,4 +10,7 @@
     color: aliceblue;
 }
 
-
+#Title{
+    padding-top: 50px;
+    align-self: center;
+}

@@ -8,7 +8,7 @@ function Skills() {
   return (
     <div id='Main_Skill_Div'>
 
-      <h1>Skills</h1>
+      <h1 id='Title'>Skills</h1>
 
       <div id='Skills_Card'>
 

@@ -7,11 +7,6 @@
     font-family: serif;
 }
 
-#Title{
-    display: flex;
-    justify-content: center;
-}
-
 #Contents {
     animation: fadeSlideIn 2s ease-in-out forwards;
     width: 60%;
