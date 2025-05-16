@@ -6,11 +6,11 @@ import "../../Styles/Skills.css"
 function Skills_Animation({ Level }) {
     return (
 
-        <div class="social-circle">
-            <span class="bubble layer1"></span>
-            <span class="bubble layer2"></span>
-            <span class="bubble layer3"></span>
-            <p class="circle-text">{Level}</p>
+        <div className="social-circle">
+            <span className="bubble layer1"></span>
+            <span className="bubble layer2"></span>
+            <span className="bubble layer3"></span>
+            <p className="circle-text">{Level}</p>
         </div>
 
     )
