@@ -3,14 +3,14 @@ import "../../Styles/Projects.css"
 
 
 
-function Projects_Component({ ProjectName, Project_ID, Description }) {
+function Projects_Component({ ProjectName = "Name None", Project_ID = "None", Description = "Summary None" }) {
     return (
         <div id='Projects_Component_Main'>
-            <div id='Project_IMG'></div>
+            <div id={Project_ID}></div>
             <div id='Project_Summary'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam at fugit aperiam eos iste!
+                {Description}
             </div>
-            <div>Projects_Component</div>
+            <div>{ProjectName}</div>
         </div>
     )
 }

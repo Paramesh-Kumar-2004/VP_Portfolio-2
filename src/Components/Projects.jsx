@@ -8,7 +8,11 @@ function Projects() {
   return (
     <div id='Main_Project_Div'>
       <h1 id='Title'>Projects</h1>
-      <Projects_Component />
+      <hr />
+      <div id='Projects_List'>
+        <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
+        <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
+      </div>
     </div>
   )
 }
