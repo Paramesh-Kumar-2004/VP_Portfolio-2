@@ -5,9 +5,10 @@
 
 #Projects_List{
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
-    margin: 14px;
+    justify-content: space-around;
+    row-gap: 14px;
 }
 
 
