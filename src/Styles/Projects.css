@@ -1,18 +1,19 @@
 #Main_Project_Div {
     min-height: 100vh;
-    background: grey;
 }
 
-#Projects_List{
+#Projects_Cards {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     row-gap: 14px;
+    background: gray;
+    margin-top: 50px;
 }
 
 
-#Projects_Component_Main{
+#Projects_Cards {
     width: 200px;
     height: 200px;
     display: flex;
@@ -25,7 +26,7 @@
     padding: 14px;
 }
 
-#None{
+#None {
     margin: 14px;
     height: 170px;
     width: 170px;
@@ -33,4 +34,3 @@
     background-position: center;
     background-size: cover;
 }
-
