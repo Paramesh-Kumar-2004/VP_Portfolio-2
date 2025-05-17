@@ -1,5 +1,6 @@
 import React from 'react'
 import Projects_Component from './Projects/Projects_Component'
+import "../Styles/Projects.css"
 
 
 

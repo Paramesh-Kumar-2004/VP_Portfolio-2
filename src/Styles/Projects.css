@@ -1,0 +1,24 @@
+#Main_Project_Div {
+    min-height: 100vh;
+    background: grey;
+}
+
+
+#Projects_Component_Main{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background: blue;
+}
+
+#Project_IMG{
+    height: 170px;
+    width: 170px;
+    background-image: url("../Images/VP.jpeg");
+    background-position: center;
+    background-size: cover;
+}
+
