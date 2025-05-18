@@ -1,6 +1,7 @@
-import React from 'react'
-import "../../Styles/Projects.css"
+import React from 'react';
+import "../../Styles/Projects.css";
 import styled from 'styled-components';
+import VP from "../../Images/VP.jpeg";
 
 
 
@@ -8,10 +9,11 @@ function Projects_Component({ ProjectName = "Name None", Project_ID = "None", De
     return (
         <StyledWrapper>
             <div className="card">
+                <img className="img" src={VP} alt="Not" width={126} height={200} />
                 <div className="textBox">
-                    <p className="text head">Ethereum</p>
-                    <span>Cryptocurrency</span>
-                    <p className="text price">1.654,34€</p>
+                    <p className="text head">{ProjectName}</p>
+                    <span>{Project_ID}</span>
+                    <p className="text price">{Description}</p>
                 </div>
             </div>
         </StyledWrapper>
@@ -24,17 +26,18 @@ const StyledWrapper = styled.div`
     height: 285px;
     background: #313131;
     border-radius: 20px;
-    ;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     color: white;
     transition: 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
   }
 
   .img {
-    height: 30%;
+    height: 50%;
     position: absolute;
     transition: 0.2s ease-in-out;
     z-index: 1;
@@ -94,7 +97,7 @@ const StyledWrapper = styled.div`
 
   .card:hover {
     transform: scale(1.04) rotate(-1deg);
-  }`;
+  }
+`;
 
-export default Projects_Component
-
+export default Projects_Component;
