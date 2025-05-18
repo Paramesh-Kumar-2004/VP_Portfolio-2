@@ -12,7 +12,6 @@ function Projects_Component({ ProjectName = "Name None", Project_ID = "None", De
                 <img className="img" src={VP} alt="Not" width={126} height={200} />
                 <div className="textBox">
                     <p className="text head">{ProjectName}</p>
-                    <span>{Project_ID}</span>
                     <p className="text price">{Description}</p>
                 </div>
             </div>
@@ -37,6 +36,7 @@ const StyledWrapper = styled.div`
   }
 
   .img {
+    borrderRadious: "14px"
     height: 50%;
     position: absolute;
     transition: 0.2s ease-in-out;
