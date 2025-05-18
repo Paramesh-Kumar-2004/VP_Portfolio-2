@@ -1,17 +1,100 @@
 import React from 'react'
 import "../../Styles/Projects.css"
+import styled from 'styled-components';
 
 
 
 function Projects_Component({ ProjectName = "Name None", Project_ID = "None", Description = "Summary None" }) {
     return (
-        <div id='Projects_Cards'>
-            <div id='Project_IMG'>Project IMG</div>
-            <div id='Project_Name'>Name : {ProjectName}</div>
-        </div>
-    )
+        <StyledWrapper>
+            <div className="card">
+                <div className="textBox">
+                    <p className="text head">Ethereum</p>
+                    <span>Cryptocurrency</span>
+                    <p className="text price">1.654,34€</p>
+                </div>
+            </div>
+        </StyledWrapper>
+    );
 }
 
-export default Projects_Component
+const StyledWrapper = styled.div`
+  .card {
+    width: 195px;
+    height: 285px;
+    background: #313131;
+    border-radius: 20px;
+    ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.2s ease-in-out;
+  }
 
+  .img {
+    height: 30%;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+    z-index: 1;
+  }
+
+  .textBox {
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    transition: 0.2s ease-in-out;
+    z-index: 2;
+  }
+
+  .textBox > .text {
+    font-weight: bold;
+  }
+
+  .textBox > .head {
+    font-size: 20px;
+  }
+
+  .textBox > .price {
+    font-size: 17px;
+  }
+
+  .textBox > span {
+    font-size: 12px;
+    color: lightgrey;
+  }
+
+  .card:hover > .textBox {
+    opacity: 1;
+  }
+
+  .card:hover > .img {
+    height: 65%;
+    filter: blur(7px);
+    animation: anim 3s infinite;
+  }
+
+  @keyframes anim {
+    0% {
+      transform: translateY(0);
+    }
+
+    50% {
+      transform: translateY(-20px);
+    }
+
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+  .card:hover {
+    transform: scale(1.04) rotate(-1deg);
+  }`;
+
+export default Projects_Component
 
