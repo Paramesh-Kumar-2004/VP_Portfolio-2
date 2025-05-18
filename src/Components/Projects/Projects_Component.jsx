@@ -1,103 +1,19 @@
 import React from 'react';
 import "../../Styles/Projects.css";
-import styled from 'styled-components';
 import VP from "../../Images/VP.jpeg";
 
 
 
 function Projects_Component({ ProjectName = "Name None", Project_ID = "None", Description = "Summary None" }) {
     return (
-        <StyledWrapper>
-            <div className="card">
-                <img className="img" src={VP} alt="Not" width={126} height={200} />
-                <div className="textBox">
-                    <p className="text head">{ProjectName}</p>
-                    <p className="text price">{Description}</p>
-                </div>
+        <div className="card">
+            <img className="img" src={VP} alt="Not" width={126} height={200} />
+            <div className="textBox">
+                <p className="text head">{ProjectName}</p>
+                <p className="text price">{Description}</p>
             </div>
-        </StyledWrapper>
+        </div>
     );
 }
-
-const StyledWrapper = styled.div`
-  .card {
-    width: 195px;
-    height: 285px;
-    background: #313131;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    transition: 0.2s ease-in-out;
-    position: relative;
-    overflow: hidden;
-  }
-
-  .img {
-    borrderRadious: "14px"
-    height: 50%;
-    position: absolute;
-    transition: 0.2s ease-in-out;
-    z-index: 1;
-  }
-
-  .textBox {
-    opacity: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-    transition: 0.2s ease-in-out;
-    z-index: 2;
-  }
-
-  .textBox > .text {
-    font-weight: bold;
-  }
-
-  .textBox > .head {
-    font-size: 20px;
-  }
-
-  .textBox > .price {
-    font-size: 17px;
-  }
-
-  .textBox > span {
-    font-size: 12px;
-    color: lightgrey;
-  }
-
-  .card:hover > .textBox {
-    opacity: 1;
-  }
-
-  .card:hover > .img {
-    height: 65%;
-    filter: blur(7px);
-    animation: anim 3s infinite;
-  }
-
-  @keyframes anim {
-    0% {
-      transform: translateY(0);
-    }
-
-    50% {
-      transform: translateY(-20px);
-    }
-
-    100% {
-      transform: translateY(0);
-    }
-  }
-
-  .card:hover {
-    transform: scale(1.04) rotate(-1deg);
-  }
-`;
 
 export default Projects_Component;
