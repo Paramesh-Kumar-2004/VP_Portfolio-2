@@ -6,7 +6,9 @@
 .card {
     width: 195px;
     height: 285px;
+    margin: 14px;
     background: #313131;
+    /* background: red; */
     border-radius: 20px;
     display: flex;
     flex-direction: column;
