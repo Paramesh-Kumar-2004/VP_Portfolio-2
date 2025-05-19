@@ -10,7 +10,7 @@ function Github() {
         <div className="tooltip">
           <div className="profile">
             <div className="user">
-              <div className="img"></div>
+              {/* <div className="img"></div> */}
               <div className="details">
                 <div className="name">Github_User_Name</div>
                 <div className="username">Paramesh-Kumar-2004</div>
