@@ -3,6 +3,15 @@
     min-height: 100vh;
 }
 
+
+#Projects_List{
+    display: flex;
+    background: gray;
+    justify-content: space-around;
+}
+
+
+/* Project_Component.jsx */
 .card {
     width: 195px;
     height: 285px;

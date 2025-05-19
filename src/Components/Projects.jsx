@@ -10,6 +10,10 @@ function Projects() {
       <h1 id='Title'>Projects</h1>
       <div id='Projects_List'>
         <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
+        <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
+        <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
+        <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
+        <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
       </div>
     </div>
   )
