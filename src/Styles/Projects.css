@@ -4,14 +4,28 @@
 }
 
 
-#Projects_List{
+
+
+
+/* Project_Component.jsx */
+
+#Main_Card {
     display: flex;
-    background: gray;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-width: 14vw;
+    width: 24vw;
+    margin-top: 14px;
+}
+
+
+#Projects_List {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
 }
 
 
-/* Project_Component.jsx */
 .card {
     width: 195px;
     height: 285px;

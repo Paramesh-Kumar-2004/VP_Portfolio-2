@@ -14,6 +14,8 @@ function Projects() {
         <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
         <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
         <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
+        <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
+        <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
       </div>
     </div>
   )
