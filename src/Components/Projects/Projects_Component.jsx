@@ -12,8 +12,8 @@ function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Descr
                 {/* <img className="img" src={VP} alt="Not" width={126} height={200} /> */}
                 <div className='img' id={ID_Name}></div>
                 <div className="textBox">
-                    <p className="text head">{ProjectName}</p>
-                    <p className="text price">{Description}</p>
+                    <p className="text" id='Project_Title'>{ProjectName}</p>
+                    <p className="text" id='Project_Description'>{Description}</p>
                 </div>
             </div>
         </div>

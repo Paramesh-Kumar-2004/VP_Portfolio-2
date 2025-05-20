@@ -9,13 +9,20 @@ function Projects() {
     <div id='Main_Project_Div'>
       <h1 id='Title'>Projects</h1>
       <div id='Projects_List'>
-        <Projects_Component ProjectName='OTA' ID_Name='OTA' Description='Over The Air' />
+
+        <a href="www.google.com" target='_b'>
+          <Projects_Component ProjectName='OTA' ID_Name='OTA'
+            Description='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequatur consequuntur ex deserunt aut.'
+          />
+        </a>
+
+
         {/* <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
-        <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
-        <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
-        <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
-        <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' /> */}
-        {/* <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' /> */}
+          <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
+          <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
+          <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' />
+          <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' /> */}
+          {/* <Projects_Component ProjectName='OTA' Project_ID='OTA' Description='Over The Air' /> */}
       </div>
     </div>
   )
