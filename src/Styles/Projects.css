@@ -43,7 +43,8 @@
 }
 
 .card:hover {
-    transform: scale(1.04) rotate(-1deg);
+    transform: scale(1.03);
+    /* transition: all 0.14s; */
 }
 
 .card::before {
@@ -101,7 +102,10 @@
 }
 
 #Project_Description {
+    height: 60%;
     padding: 14px;
+    overflow-y: auto;
+    scrollbar-width: none;
 }
 
 .card:hover>.textBox {
