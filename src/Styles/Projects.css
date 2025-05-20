@@ -14,10 +14,9 @@
     flex-wrap: wrap;
     justify-content: center;
     min-width: 14vw;
-    width: 24vw;
-    min-height: 100%;
+    width: 30vw;
     margin-top: 14px;
-    background: red;
+    /* background: red; */
 }
 
 #Projects_List {
@@ -29,6 +28,8 @@
 .card {
     width: 195px;
     height: 285px;
+    width: 80%;
+    height: 350px;
     margin: 14px;
     background: #313131;
     border-radius: 20px;
