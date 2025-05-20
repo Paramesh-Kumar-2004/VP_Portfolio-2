@@ -12,7 +12,8 @@
 #Main_Card {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     min-width: 14vw;
     width: 30vw;
     margin-top: 14px;
@@ -79,14 +80,6 @@
     z-index: -1;
 }
 
-.img {
-    height: 80%;
-    width: 80%;
-    border-radius: 14px;
-    position: absolute;
-    transition: 1s ease-in-out;
-}
-
 .textBox {
     opacity: 0;
     display: flex;
@@ -120,17 +113,56 @@
 }
 
 
-
-#OTA {
-    background-image: url("../Images/Pyro_Patrol.jpg");
+.img {
+    height: 80%;
+    width: 80%;
+    border-radius: 14px;
+    position: absolute;
+    transition: 1s ease-in-out;
     background-position: center;
     background-size: cover;
-    /* box-shadow: 0px 14px 50px  blue, 0px -10px 24px blue; */
-    box-shadow: 0px 14px 50px rgb(108, 108, 255), 0px -10px 24px rgb(135, 135, 226);
-    box-shadow: 0px 14px 50px orange, 0px -10px 24px skyblue;
 }
 
-.card:hover>#OTA {
+
+#Pyro_Patrol {
+    background-image: url("../Images/Project_Img/Pyro_Patrol.jpg");
+    box-shadow: 0px 10px 50px orangered, 0px -10px 24px orange;
+}
+
+.card:hover>#Pyro_Patrol {
+    background: none;
+    box-shadow: none;
+}
+
+
+#Brain_Friendly {
+    background-image: url("../Images/Project_Img/E-Learning_VR_1.jpg");
+    box-shadow: 0px 10px 50px rgb(108, 108, 255), 0px -10px 24px rgb(135, 135, 226);
+}
+
+.card:hover>#Brain_Friendly {
+    background: none;
+    box-shadow: none;
+}
+
+
+#Text_Based_Game {
+    background-image: url("../Images/Project_Img/Text_Game_2.jpg");
+    box-shadow: 0px 10px 50px darkslategray, 0px -10px 24px gray;
+}
+
+.card:hover>#Text_Based_Game {
+    background: none;
+    box-shadow: none;
+}
+
+
+#AI_Voice_Assistant {
+    background-image: url("../Images/Project_Img/AI_Assistant_1.jpg");
+    box-shadow: 0px 10px 50px rgb(108, 108, 255), 0px -10px 24px rgb(64, 64, 250);
+}
+
+.card:hover>#AI_Voice_Assistant {
     background: none;
     box-shadow: none;
 }

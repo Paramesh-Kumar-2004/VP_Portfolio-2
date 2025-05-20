@@ -14,8 +14,10 @@ function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Descr
                 <div className="textBox">
                     <p className="text" id='Project_Title'>{ProjectName}</p>
                     <p className="text" id='Project_Description'>{Description}</p>
+                    <h6>Click For Source Code</h6>
                 </div>
             </div>
+            <h2>{ProjectName}</h2>
         </div>
     );
 }
