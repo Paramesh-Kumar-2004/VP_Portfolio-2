@@ -28,7 +28,7 @@
 .card {
     width: 195px;
     height: 285px;
-    width: 80%;
+    width: 75%;
     height: 350px;
     margin: 14px;
     background: #313131;
@@ -45,7 +45,7 @@
 
 .card:hover {
     transform: scale(1.03);
-    /* transition: all 0.14s; */
+    transition: all 2s;
 }
 
 .card::before {
