@@ -13,18 +13,23 @@ function Skills() {
       <div id='Skills_Card'>
 
         <div className='Cards'>
-          <Skills_Animation Level={"80%"} IdName={"Python"} />
+          <Skills_Animation Level={"Intermidiate"} IdName={"Python"} />
           <span><h3>Python</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"60%"} IdName={"Pytest"}/>
+          <Skills_Animation Level={"60%"} IdName={"Pytest"} />
           <span><h3>Pytest & Selenium</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"80%"} IdName={"HTML_CSS"}/>
+          <Skills_Animation Level={"80%"} IdName={"HTML_CSS"} />
           <span><h3>HTML & CSS</h3></span>
+        </div>
+
+        <div className='Cards'>
+          <Skills_Animation Level={"70%"} IdName={"Java_Script"} />
+          <span><h3>Java Script</h3></span>
         </div>
 
         <div className='Cards'>
@@ -43,13 +48,8 @@ function Skills() {
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"70%"} />
-          <span><h3>Github</h3></span>
-        </div>
-
-        <div className='Cards'>
-          <Skills_Animation Level={"60%"} />
-          <span><h3>Docker</h3></span>
+          <Skills_Animation Level={"Basic"} />
+          <span><h3>Git & Docker</h3></span>
         </div>
 
         <div className='Cards'>
