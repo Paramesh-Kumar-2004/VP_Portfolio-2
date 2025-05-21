@@ -4,7 +4,7 @@ import VP from "../../Images/VP.jpeg";
 
 
 
-function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Description = "Summary None", Project_Link = "#" }) {
+function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Description = "Summary None", Project_Link = "#", Project_Domain = "None" }) {
     return (
 
         <div id='Main_Card'>
@@ -15,6 +15,7 @@ function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Descr
                 <div className="textBox">
                     <p className="text" id='Project_Title'>{ProjectName}</p>
                     <p className="text" id='Project_Description'>{Description}</p>
+                    <p>{Project_Domain}</p>
                     <p>Click For Source Code</p>
                 </div>
             </a>
