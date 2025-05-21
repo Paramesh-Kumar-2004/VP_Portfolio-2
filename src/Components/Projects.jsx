@@ -40,17 +40,6 @@ function Projects() {
           Project_Link='https://www.google.com'
         />
 
-        <div>
-          <ol>
-            <li>OTA</li>
-            <li>SIL Automation</li>
-            <li>Pyro Patrol</li>
-            <li>Brain Friendly</li>
-            <li>Text Based Game</li>
-            <li>AI Voice Assistant</li>
-          </ol>
-        </div>
-
       </div>
     </div>
   )
