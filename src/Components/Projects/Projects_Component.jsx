@@ -4,7 +4,7 @@ import VP from "../../Images/VP.jpeg";
 
 
 
-function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Description = "Summary None", Project_Link = "#", Project_Domain = "None" }) {
+function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Description = "Summary None", Project_Domain = "None", Project_Link = "#" }) {
     return (
 
         <div id='Main_Card'>
