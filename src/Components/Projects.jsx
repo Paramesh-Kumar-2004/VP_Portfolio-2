@@ -48,7 +48,6 @@ function Projects() {
           Project_Link='https://www.google.com'
         />
 
-
         <div>
           <ol>
             <li>OTA</li>
