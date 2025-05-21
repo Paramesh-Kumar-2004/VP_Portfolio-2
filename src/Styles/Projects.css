@@ -42,6 +42,7 @@
     transition: 0.2s ease-in-out;
     position: relative;
     overflow: hidden;
+    text-decoration: none;
 }
 
 .card:hover {
@@ -108,8 +109,15 @@
 
 .card:hover>.img {
     height: 65%;
-    filter: blur(7px);
+    filter: blur(14px);
     animation: anim 3s infinite;
+}
+
+#Main_Card h2 {
+    border-radius: 14px;
+    padding: 7px;
+    font-size: 20px;
+    box-shadow: inset 3px 3px 14px 3px skyblue;
 }
 
 
@@ -129,42 +137,20 @@
     box-shadow: 0px 10px 50px orangered, 0px -10px 24px orange;
 }
 
-.card:hover>#Pyro_Patrol {
-    background: none;
-    box-shadow: none;
-}
-
-
 #Brain_Friendly {
     background-image: url("../Images/Project_Img/E-Learning_VR_1.jpg");
     box-shadow: 0px 10px 50px rgb(108, 108, 255), 0px -10px 24px rgb(135, 135, 226);
 }
-
-.card:hover>#Brain_Friendly {
-    background: none;
-    box-shadow: none;
-}
-
 
 #Text_Based_Game {
     background-image: url("../Images/Project_Img/Text_Game_2.jpg");
     box-shadow: 0px 10px 50px darkslategray, 0px -10px 24px gray;
 }
 
-.card:hover>#Text_Based_Game {
-    background: none;
-    box-shadow: none;
-}
-
 
 #AI_Voice_Assistant {
     background-image: url("../Images/Project_Img/AI_Assistant_1.jpg");
     box-shadow: 0px 10px 50px rgb(108, 108, 255), 0px -10px 24px rgb(64, 64, 250);
-}
-
-.card:hover>#AI_Voice_Assistant {
-    background: none;
-    box-shadow: none;
 }
 
 

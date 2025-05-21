@@ -4,19 +4,21 @@ import VP from "../../Images/VP.jpeg";
 
 
 
-function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Description = "Summary None" }) {
+function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Description = "Summary None", Project_Link = "#" }) {
     return (
 
         <div id='Main_Card'>
-            <div className="card"   >
+            {/* <div className="card"> */}
+            <a href={Project_Link} className="card">
                 {/* <img className="img" src={VP} alt="Not" width={126} height={200} /> */}
                 <div className='img' id={ID_Name}></div>
                 <div className="textBox">
                     <p className="text" id='Project_Title'>{ProjectName}</p>
                     <p className="text" id='Project_Description'>{Description}</p>
-                    <h6>Click For Source Code</h6>
+                    <p>Click For Source Code</p>
                 </div>
-            </div>
+            </a>
+            {/* </div> */}
             <h2>{ProjectName}</h2>
         </div>
     );
