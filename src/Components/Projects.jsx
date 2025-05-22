@@ -30,19 +30,19 @@ function Projects() {
 
         <Projects_Component ProjectName='Brain Friendly' ID_Name='Brain_Friendly'
           Description='Brain Friendly Is A E-Learning Website Using VR'
-          Project_Domain='Frontend Development'
+          Project_Domain='Web Interface Development '
           Project_Link='https://www.google.com'
         />
 
         <Projects_Component ProjectName='Text Based Game' ID_Name='Text_Based_Game'
           Description="As a Python Developer Intern, developed an interactive text-based adventure game demonstrating core programming concepts such as object-oriented programming, control flow, randomization, and user input handling. Implemented features like role-based character creation, dynamic weapon inventory, and real-time decision trees (e.g., attack, run, treasure) to enhance engagement. Utilized Python's random module for combat logic and custom classes/functions to simulate turn-based gameplay. Included mechanics like life tracking, scoring system, and win/lose conditions, strengthening both logic-building and problem-solving skills."
-          Project_Domain='Python Development'
+          Project_Domain='Game Development (Console Based)'
           Project_Link='https://www.google.com'
         />
 
         <Projects_Component ProjectName='Simple AI Voice Assistant' ID_Name='AI_Voice_Assistant'
-          Description='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci consequatur consequuntur ex deserunt aut.'
-          Project_Domain='Python Development'
+          Description='Developed a voice-based personal assistant using Python, integrating pyttsx3, datetime, and pywhatkit libraries to simulate an AI named JARVIS. The assistant features user authentication via password input, time-based greetings, and the ability to search Google or play YouTube videos based on voice-triggered or typed input. Implemented role-based responses for different users and used pyttsx3 for text-to-speech interaction. Demonstrated core Python skills including input handling, conditional logic, function design, and real-time task automation.'
+          Project_Domain='Python Automation'
           Project_Link='https://www.google.com'
         />
 
