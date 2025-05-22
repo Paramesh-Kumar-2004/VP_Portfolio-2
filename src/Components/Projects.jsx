@@ -23,7 +23,7 @@ function Projects() {
         />
 
         <Projects_Component ProjectName='Pyro Patrol' ID_Name='Pyro_Patrol'
-          Description='The Pyro Patrol Is A Autonomous Fire Detecting And Extungushing Robot.'
+          Description='Designed and developed a fire-detecting autonomous robot using IR sensors and actuators to identify and extinguish fire without human intervention. Programmed using Embedded C/C++ on microcontroller-based hardware, the robot continuously scans its environment, detects heat or flame sources, and activates an extinguishing mechanism, demonstrating intelligent response and automation in fire safety applications.'
           Project_Domain='IOT'
           Project_Link='https://www.google.com'
         />
