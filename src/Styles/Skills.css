@@ -62,6 +62,10 @@
     background-image: url("../Images/ReactJs.png");
 }
 
+#NodeJs{
+    background-image: url("../Images/Node_JS.jpeg");
+}
+
 
 /* On hover, hide background and show text */
 .Circle:hover {
