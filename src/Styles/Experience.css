@@ -12,6 +12,11 @@
     border-radius: 14px;
     cursor: pointer;
 }
+.Experience_Cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .Experience_Card:hover {
     background: red;
