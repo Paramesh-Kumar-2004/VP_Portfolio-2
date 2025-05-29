@@ -10,6 +10,7 @@
     width: 126px;
     background: blue;
     border-radius: 14px;
+    cursor: pointer;
 }
 
 .Experience_Card:hover {
@@ -17,3 +18,4 @@
     box-shadow: 3px 3px 14px 3px orchid;
     transition: all 1s ease-in-out;
 }
+
