@@ -1,4 +1,12 @@
-#Main_Experience_Div{
+#Main_Experience_Div {
     min-height: 100vh;
     background: gray;
+}
+
+
+.Experience_Card {
+    margin: 14px;
+    height: 126px;
+    width: 126px;
+    background: blue;
 }
