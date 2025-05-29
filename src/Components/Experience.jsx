@@ -12,6 +12,9 @@ function Experience() {
                 <div className="Experience_Cards">
                     <div className="Experience_Card"></div>
                 </div>
+                <div className="Experience_Cards">
+                    <div className="Experience_Card"></div>
+                </div>
 
 
             </div>
