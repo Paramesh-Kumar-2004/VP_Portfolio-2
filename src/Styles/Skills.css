@@ -51,7 +51,7 @@
 }
 
 #Pytest {
-    background-image: url("../Images/Pytest_Selenium.jpeg");
+    background-image: url("../Images/Pytest_Selenium1.png");
 }
 
 #HTML_CSS {
@@ -67,22 +67,24 @@
 }
 
 #NodeJs {
-    background-image: url("../Images/Node_JS.jpeg");
+    background-image: url("../Images/Node_JS.png");
+
 }
 
 #ExpressJs {
     background-image: url("../Images/Express_JS.jpeg");
+    background-size: 180%;
 }
 
 #Git_Docker {
     background-image: url("../Images/Git_Docker.png");
 }
 
-#MYSQL{
+#MYSQL {
     background-image: url("../Images/MYSQL.jpeg");
 }
 
-#MongoDB{
+#MongoDB {
     background-image: url("../Images/MongoDB.png");
 }
 
