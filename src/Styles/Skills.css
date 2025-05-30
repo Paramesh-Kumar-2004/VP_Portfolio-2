@@ -58,6 +58,10 @@
     background-image: url("../Images/HTML_CSS.jpeg");
 }
 
+#Java_Script {
+    background-image: url("../Images/Java_Script.jpeg");
+}
+
 #React {
     background-image: url("../Images/ReactJs.png");
 }
@@ -65,6 +69,25 @@
 #NodeJs {
     background-image: url("../Images/Node_JS.jpeg");
 }
+
+#ExpressJs {
+    background-image: url("../Images/Express_JS.jpeg");
+}
+
+#Git_Docker {
+    background-image: url("../Images/Git_Docker.png");
+}
+
+#MYSQL{
+    background-image: url("../Images/MYSQL.jpeg");
+}
+
+#MongoDB{
+    background-image: url("../Images/MongoDB.png");
+}
+
+
+
 
 /* On hover, hide background and show text */
 .Circle:hover {

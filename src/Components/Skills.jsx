@@ -38,27 +38,27 @@ function Skills() {
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"80%"} IdName={"NodeJs"}/>
+          <Skills_Animation Level={"80%"} IdName={"NodeJs"} />
           <span><h3>Node JS</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"80%"} />
+          <Skills_Animation Level={"80%"} IdName={"ExpressJs"} />
           <span><h3>Express JS</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"Basic"} />
+          <Skills_Animation Level={"Basic"} IdName={"Git_Docker"}/>
           <span><h3>Git & Docker</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"60%"} />
+          <Skills_Animation Level={"60%"} IdName={"MYSQL"}/>
           <span><h3>MYSQL</h3></span>
         </div>
 
         <div className='Cards'>
-          <Skills_Animation Level={"50%"} />
+          <Skills_Animation Level={"50%"} IdName={"MongoDB"} />
           <span><h3>Mongo DB</h3></span>
         </div>
 
