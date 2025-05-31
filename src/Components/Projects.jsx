@@ -37,7 +37,7 @@ function Projects() {
         <Projects_Component ProjectName='Text Based Game' ID_Name='Text_Based_Game'
           Description="As a Python Developer Intern, developed an interactive text-based adventure game demonstrating core programming concepts such as object-oriented programming, control flow, randomization, and user input handling. Implemented features like role-based character creation, dynamic weapon inventory, and real-time decision trees (e.g., attack, run, treasure) to enhance engagement. Utilized Python's random module for combat logic and custom classes/functions to simulate turn-based gameplay. Included mechanics like life tracking, scoring system, and win/lose conditions, strengthening both logic-building and problem-solving skills."
           Project_Domain='Game Development (Console Based)'
-          Project_Link='https://www.google.com'
+          Project_Link='https://github.com/Paramesh-Kumar-2004/Text_Based_Game-Python'
         />
 
         <Projects_Component ProjectName='Simple AI Voice Assistant' ID_Name='AI_Voice_Assistant'
