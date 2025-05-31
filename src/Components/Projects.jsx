@@ -43,7 +43,7 @@ function Projects() {
         <Projects_Component ProjectName='Simple AI Voice Assistant' ID_Name='AI_Voice_Assistant'
           Description='Developed a voice-based personal assistant using Python, integrating pyttsx3, datetime, and pywhatkit libraries to simulate an AI named JARVIS. The assistant features user authentication via password input, time-based greetings, and the ability to search Google or play YouTube videos based on voice-triggered or typed input. Implemented role-based responses for different users and used pyttsx3 for text-to-speech interaction. Demonstrated core Python skills including input handling, conditional logic, function design, and real-time task automation.'
           Project_Domain='Python Automation'
-          Project_Link='https://www.google.com'
+          Project_Link='https://github.com/Paramesh-Kumar-2004/Voice_Assistant-Search-Tool'
         />
 
       </div>
