@@ -13,7 +13,7 @@ function Projects() {
         <Projects_Component ProjectName='OTA' ID_Name='OTA'
           Description='Developed a full-stack role-based web application using React.js, Node.js, and Express.js, enabling dynamic routing and conditional rendering for Admin, Campaign Manager, and Normal users. Integrated RESTful APIs for modules like Campaign, Software, User, and Vehicle Management, and secured the application with JWT-based authentication and role-based authorization. Implemented file upload using Multer, managed frontend state with React Hooks, and designed a responsive UI with custom themes, interactive sidebars, and error-handling routes. Deployed the application using Docker, maintained version control with Git/GitHub, and ensured reliability through asyncHandler utilities and basic automation testing with Selenium.'
           Project_Domain='Full Stack Development'
-          Project_Link='https://www.google.com'
+          Project_Link='https://github.com/Paramesh-Kumar-2004/OTA'
         />
 
         <Projects_Component ProjectName='SIL Automation' ID_Name='SIL_Automation'

@@ -132,6 +132,11 @@
 }
 
 
+#OTA {
+    background-image: url("../Images/OTA.jpg");
+    box-shadow: 0px 10px 50px cyan, 0px -10px 24px skyblue;
+}
+
 #Pyro_Patrol {
     background-image: url("../Images/Project_Img/Pyro_Patrol.jpg");
     box-shadow: 0px 10px 50px orangered, 0px -10px 24px orange;

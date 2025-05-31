@@ -6,7 +6,7 @@ function Projects_Component({ ProjectName = "Name None", ID_Name = "None", Descr
     return (
 
         <div id='Main_Card'>
-            <a href={Project_Link} className="card">
+            <a href={Project_Link} className="card" target='_b'>
                 <div className='img' id={ID_Name}></div>
                 <div className="textBox">
                     <p className="text" id='Project_Title'>{ProjectName}</p>
