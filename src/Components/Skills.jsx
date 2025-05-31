@@ -49,7 +49,7 @@ function Skills() {
 
         <div className='Cards'>
           <Skills_Animation Level={"Basic"} IdName={"Git_Docker"} />
-          <span><h3>Git & Docker</h3></span>
+          <span><h3>Git & Docker</h3> </span>
         </div>
 
         <div className='Cards'>
