@@ -8,6 +8,7 @@ function Footer() {
                 display: "flex",
                 justifyContent: "space-evenly",
                 padding: "14px",
+                cursor: "pointer"
             }}
         >
             <h3>Github</h3>
