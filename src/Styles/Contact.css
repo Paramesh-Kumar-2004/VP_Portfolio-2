@@ -1,3 +1,12 @@
 #Main_Contact_Div {
     min-height: 100vh;
 }
+
+
+#InputFeild{
+    height: 80vh;
+    width: 50vw;
+    margin: 14px;
+    justify-self: center;
+    background: gray;
+}
