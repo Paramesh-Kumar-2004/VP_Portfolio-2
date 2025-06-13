@@ -9,6 +9,11 @@ function Contact() {
       <div id="InputFeild">
         <div >
 
+          <div>
+            <label htmlFor="email">Email :</label>
+            <input type="email" name="email" id="Email" placeholder='Enter Your Email' />
+          </div>
+
         </div>
       </div>
     </div>
