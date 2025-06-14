@@ -9,7 +9,7 @@ function Contact() {
       <div id="InputFeild">
         <form action="submit">
 
-          <div >
+          <div id='Feilds'>
 
             <div>
               <label htmlFor="name">Name :</label>
