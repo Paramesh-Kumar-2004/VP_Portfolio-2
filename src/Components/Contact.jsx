@@ -11,7 +11,7 @@ function Contact() {
 
           <div id='Feilds'>
 
-            <div>
+            <div className='Datafeild'>
               <label htmlFor="name">Name :</label>
               <input type="text" name="name" id="Name" placeholder='Enter Your Name' />
             </div>
