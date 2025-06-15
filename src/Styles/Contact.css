@@ -11,7 +11,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background: gray;
 }
 
 
@@ -24,4 +23,9 @@
 
 .Text{
     font-size: x-large;
+}
+
+.InputBox{
+    min-height: 26px;
+    border-radius: 3px;
 }
