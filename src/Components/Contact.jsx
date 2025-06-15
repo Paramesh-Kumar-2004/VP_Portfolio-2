@@ -12,13 +12,13 @@ function Contact() {
           <div id='Feilds'>
 
             <div className='DataFeild'>
-              <label htmlFor="name">Name :</label>
-              <input type="text" name="name" id="Name" placeholder='Enter Your Name' />
+              <label htmlFor="name" className='Text'>Name :</label>
+              <input type="text" name="name" id="Name" className='InputBox' placeholder='Enter Your Name' />
             </div>
 
             <div className='DataFeild'>
-              <label htmlFor="email">Email :</label>
-              <input type="email" name="email" id="Email" placeholder='Enter Your Email' />
+              <label htmlFor="email" className='Text'>Email :</label>
+              <input type="email" name="email" id="Email" className='InputBox' placeholder='Enter Your Email' />
             </div>
 
           </div>

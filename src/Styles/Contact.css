@@ -14,9 +14,14 @@
     background: gray;
 }
 
+
+
 .DataFeild {
     padding: 14px;
     display: flex;
     background: green;
 }
 
+.Text{
+    background: #000;
+}
