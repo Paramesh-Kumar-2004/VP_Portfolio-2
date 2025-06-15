@@ -19,9 +19,9 @@
 .DataFeild {
     padding: 14px;
     display: flex;
-    background: green;
+    flex-direction: column;
 }
 
 .Text{
-    background: #000;
+    font-size: x-large;
 }
