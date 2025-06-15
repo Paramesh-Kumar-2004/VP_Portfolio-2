@@ -11,21 +11,32 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: gray;
 }
 
+#Feilds {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
 
 
 .DataFeild {
     padding: 14px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.Text{
+.Text {
     font-size: x-large;
 }
 
-.InputBox{
+.InputBox {
     min-height: 26px;
     border-radius: 3px;
+}
+
+#Message{
+    min-height: 126px;
 }

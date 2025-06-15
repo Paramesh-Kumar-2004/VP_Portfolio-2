@@ -21,6 +21,11 @@ function Contact() {
               <input type="email" name="email" id="Email" className='InputBox' placeholder='Enter Your Email' />
             </div>
 
+            <div className='DataFeild'>
+              <label htmlFor="message" className='Text'>Message :</label>
+              <input type='text' name="message" id="Message" className='InputBox' placeholder='Enter Your Message' />
+            </div>
+
           </div>
 
         </form>
