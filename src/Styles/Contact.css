@@ -1,42 +1,4 @@
 #Main_Contact_Div {
     min-height: 100vh;
-}
-
-
-#InputFeild {
-    width: 80%;
-    margin: 14px;
-    justify-self: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background: gray;
-}
-
-#Feilds {
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    row-gap: 14px;
-}
-
-
-.DataFeild {
-    padding: 14px;
-    display: flex;
-    flex-direction: column;
-}
-
-.Text {
-    font-size: x-large;
-}
-
-.InputBox {
-    min-height: 26px;
-    min-width: 100%;
-    border-radius: 3px;
-}
-
-#Message{
-    min-height: 126px;
 }
