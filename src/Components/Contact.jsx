@@ -34,8 +34,9 @@ function Contact() {
   return (
     <div id='Main_Contact_Div'>
       <h1 id='Title'>Contact</h1>
-      <form onSubmit={HandleSubmit}>
 
+
+      <form onSubmit={HandleSubmit} id='form'>
         <div id="UserName">
           <label>Name :</label><br />
           <input
@@ -56,6 +57,17 @@ function Contact() {
             placeholder='Enter Your Email'
             value={FormData.UserEmail}
             onChange={HandleOnChange}
+            required
+          />
+        </div>
+
+        <div id="UserMessage">
+          <label>Message :</label>
+          <input
+            name='Message'
+            onChange={HandleOnChange}
+            value={FormData.Message}
+            type="text"
             required
           />
         </div>
