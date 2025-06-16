@@ -1,9 +1,10 @@
 #Main_Contact_Div {
     min-height: 100vh;
-    background: gray;
+    /* background: gray; */
 }
 
 #form {
+    margin-top: 26px;
     background-color: #fff;
     justify-self: center;
     padding: 30px 40px;
@@ -12,13 +13,6 @@
     width: 100%;
     max-width: 400px;
     box-sizing: border-box;
-}
-
-#Title {
-    text-align: center;
-    font-size: 28px;
-    margin-bottom: 20px;
-    color: #333;
 }
 
 .label {

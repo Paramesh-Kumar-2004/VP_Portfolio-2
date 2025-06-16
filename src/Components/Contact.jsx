@@ -65,6 +65,7 @@ function Contact() {
           <label className='label'>Message :</label><br />
           <input
             name='Message'
+            placeholder='Enter Your Message'
             onChange={HandleOnChange}
             value={FormData.Message}
             type="text"
