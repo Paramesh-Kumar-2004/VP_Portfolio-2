@@ -38,7 +38,7 @@ function Contact() {
 
       <form onSubmit={HandleSubmit} id='form'>
         <div id="UserName">
-          <label>Name :</label><br />
+          <label className='label'>Name :</label><br />
           <input
             type="text"
             name='UserName'
@@ -50,7 +50,7 @@ function Contact() {
         </div>
 
         <div id="UserEmail">
-          <label>Email :</label><br />
+          <label className='label'>Email :</label><br />
           <input
             name='UserEmail'
             type="email"
@@ -62,7 +62,7 @@ function Contact() {
         </div>
 
         <div id="UserMessage">
-          <label>Message :</label>
+          <label className='label'>Message :</label><br />
           <input
             name='Message'
             onChange={HandleOnChange}
