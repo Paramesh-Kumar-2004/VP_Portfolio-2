@@ -73,7 +73,7 @@ function Contact() {
           />
         </div>
 
-        <button type="submit">Send</button>
+        <button type="submit" id='SendButton'>Send</button>
 
       </form>
     </div>

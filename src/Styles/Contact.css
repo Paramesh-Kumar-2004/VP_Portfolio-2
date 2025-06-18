@@ -23,6 +23,23 @@
     display: inline-block;
 }
 
+#SendButton {
+    margin-top: 26px;
+    width: 100%;
+    padding: 14px;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+#SendButton:hover{
+    background: cyan;
+}
+
 input[type="text"],
 input[type="email"] {
     width: 100%;
@@ -34,7 +51,7 @@ input[type="email"] {
     box-sizing: border-box;
 }
 
-button {
+/* button {
     width: 100%;
     padding: 12px;
     background-color: #007BFF;
@@ -49,4 +66,4 @@ button {
 
 button:hover {
     background-color: #0056b3;
-}
+} */
