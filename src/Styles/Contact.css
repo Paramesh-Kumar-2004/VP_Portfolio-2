@@ -17,7 +17,8 @@
 
 .label {
     font-weight: 500;
-    color: #555;
+    color: white;
+    font-size: large;
     margin-bottom: 6px;
     display: inline-block;
 }
