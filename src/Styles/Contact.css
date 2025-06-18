@@ -37,7 +37,8 @@
     cursor: pointer;
     transition: background 0.4s ease-in-out;
 }
-#SendButton:hover{
+
+#SendButton:hover {
     background: green;
     /* box-shadow: 0 0 3px 0 red; */
 }
@@ -49,9 +50,18 @@ input[type="email"] {
     margin: 8px 0 20px 0;
     border: 1px solid #ccc;
     border-radius: 6px;
+    outline: none;
     font-size: 14px;
     box-sizing: border-box;
 }
+
+input:focus {
+    color: white;
+    background: #000;
+    border: 2px solid skyblue;
+    box-shadow: inset 0 0 10px 1px skyblue;
+}
+
 
 /* button {
     width: 100%;
