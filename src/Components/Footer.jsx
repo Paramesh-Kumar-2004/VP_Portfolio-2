@@ -1,19 +1,15 @@
 import React from 'react'
+import "../Styles/Footer.css"
+
 
 
 function Footer() {
+
     return (
-        <div
-            style={{
-                display: "flex",
-                justifyContent: "space-evenly",
-                padding: "14px",
-                cursor: "pointer"
-            }}
-        >
-            <h3>Github</h3>
-            <h3>LinkedIn</h3>
-            <h3>Portfolio</h3>
+        <div id='MainFooter'>
+            <a href="https://paramesh-kumar-2004.github.io/VP_Portfolio/" >Linked In</a>
+            <a href="https://github.com/paramesh-kumar-2004" >Github</a>
+            <a href="https://paramesh-kumar-2004.github.io/VP_Portfolio/" >Portfolio</a>
         </div>
     )
 }
