@@ -23,6 +23,9 @@ function Contact() {
   const HandleSubmit = (e) => {
     e.preventDefault();
     console.log(FormData)
+    console.log("User Name :", FormData.UserName)
+    console.log("User Email :", FormData.UserEmail)
+    console.log("Message :", FormData.Message)
 
     setFormData({
       UserName: "",
