@@ -34,23 +34,6 @@
     color: transparent;
 }
 
-
-
-
-/* #MyLogo {
-    height: 160px;
-    width: 160px;
-    border-radius: 3px;
-    background: gray;
-    background-image: url("../Images/VP.jpeg");
-    background-position: 0px -26px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0px 0px 10px 10px gold;
-} */
-
-
-
 #Role {
     font-family: monospace;
     font-size: 24px;
@@ -59,6 +42,9 @@
 
 #Role span {
     color: magenta;
+    background: linear-gradient(darkblue, skyblue);
+    background-clip: text;
+    color: transparent;
 }
 
 #Social_Medias {
