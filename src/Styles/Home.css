@@ -10,7 +10,6 @@
     min-height: 100vh;
     overflow-x: hidden;
 
-
     background-image: url("../Images/Wallpaper_5.jpg");
     /* animation: slideshow 26s infinite; */
     background-position: center;
@@ -30,7 +29,7 @@
 }
 
 #Home_Content b {
-    background: linear-gradient(black, magenta);
+    background: linear-gradient(darkblue, skyblue);
     background-clip: text;
     color: transparent;
 }
@@ -58,7 +57,7 @@
     word-wrap: break-word;
 }
 
-#Role span{
+#Role span {
     color: magenta;
 }
 

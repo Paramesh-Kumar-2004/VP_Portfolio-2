@@ -1,13 +1,12 @@
 import React, { useEffect, useRef } from 'react'
 import Typed from 'typed.js'
 
-import "../Styles/Home.css"
 import LinkedIn from './Social_Media/LinkedIn'
 import Instagram from './Social_Media/Instagram'
 import Github from './Social_Media/GitHub'
+import "../Styles/Home.css"
 
 
-// https://github.com/Paramesh-Kumar-2004/VP_Portfolio-2.git
 
 function Home() {
 
