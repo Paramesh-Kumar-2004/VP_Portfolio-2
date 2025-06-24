@@ -33,7 +33,7 @@ function Home() {
       <div id='Main_Home_Div'>
 
         <div id='Home_Content'>
-          <h1>Hi, It's <b>Paramesh Kumar</b></h1>
+          <h1>Hi, It's <b>Paramesh Kumar S</b></h1>
 
           <h4 id='Role'>
             &#160;&#160;&#160;I Am <span ref={el} />
