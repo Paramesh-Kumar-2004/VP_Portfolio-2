@@ -4,11 +4,12 @@
     position: fixed;
     width: 100%;
     padding: 14px;
-    background: violet;
+    /* background: violet; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 14;
+    box-shadow: inset 0 0 14px 3px pink;
 }
 
 #name {
@@ -43,17 +44,17 @@
     color: aqua;
     animation: fadeSlideIn 1s ease-out forwards;
 }
-.lists a:hover{
+
+.lists a:hover {
     color: magenta;
     transition: all 126ms ease-in-out;
 }
 
 
 .lists {
-    padding: 3px;
+    padding: 14px;
     font-size: large;
     font-weight: bolder;
-    filter: drop-shadow(5px 5px 2px black);
 }
 
 .lists:hover {
