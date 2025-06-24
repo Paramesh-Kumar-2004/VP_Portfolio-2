@@ -63,6 +63,11 @@
     font-weight: bolder;
 }
 
+.lists:hover{
+    /* scale: 1.2; */
+    transform: translateY(-14deg);
+    transition: all 126ms ease-in-out;
+}
 
 
 
