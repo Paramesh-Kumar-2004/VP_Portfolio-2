@@ -70,14 +70,14 @@
     box-shadow: 0 3px 0 0 rgb(0, 183, 255);
 }
 
-a:hover {
+/* a:hover {
     scale: 1.1;
     transform: skew(-3deg,-3deg);
     transform: translateY(-14px);
     filter: drop-shadow(0px 0px 0px black);
     transition: all 126ms ease-in-out;
     box-shadow: 0 3px 0 0 rgb(0, 183, 255);
-}
+} */
 
 
 
