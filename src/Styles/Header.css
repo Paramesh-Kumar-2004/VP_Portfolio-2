@@ -51,10 +51,12 @@
 
 .lists a:hover {
     color: rgb(0, 183, 255);
-    text-shadow: 0 0 14px #fff, 0 0 14px #0ff;
+    text-shadow: 0 0 4px #fff, 0 0 4px #0ff;
     transition: all 126ms ease-in-out;
     transition: all 126ms ease-in-out;
-    box-shadow: 0 3px 0 0 rgb(255, 0, 242);
+    /* box-shadow: 0 3px 0 0 rgb(255, 0, 242); */
+    text-decoration-line: underline;
+    text-decoration-color: rgb(0, 183, 255);
 }
 
 .lists {
