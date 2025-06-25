@@ -12,7 +12,7 @@ function Github() {
             <div className="user">
               {/* <div className="img"></div> */}
               <div className="details">
-                <div className="name">Github_User_Name</div>
+                <div className="name">Github_User_Name&#160;&#160;&#160;&#160;</div>
                 <div className="username">Paramesh-Kumar-2004</div>
               </div>
             </div>
@@ -65,6 +65,7 @@ const StyledWrapper = styled.div`
   }
 
   .profile {
+    // width:160px;
     background: #2a2b2f;
     border-radius: 10px 15px;
     padding: 10px;
