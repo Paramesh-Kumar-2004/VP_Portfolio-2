@@ -4,17 +4,18 @@
     position: fixed;
     width: 100%;
     padding: 3px;
-    /* background: violet; */
+    /* background: black; */
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 14;
-    box-shadow: inset -14px 0 26px 3px skyblue;
+    /* box-shadow: inset -14px 0 26px 3px skyblue; */
+    box-shadow: inset -14px 0 26px 3px palevioletred;
 }
 
 #name {
     font-size: 30px;
-    background: red;
+    background: skyblue;
     background-clip: text;
     color: transparent;
     animation: fadeSlideIn 1s ease-out forwards;
@@ -22,6 +23,7 @@
 }
 
 #name:hover {
+    text-shadow: 0 0 3px #fff, 0 0 8px #0ff;
     background: cyan;
     background-clip: text;
     color: transparent;
@@ -49,6 +51,7 @@
 
 .lists a:hover {
     color: rgb(0, 183, 255);
+    text-shadow: 0 0 14px #fff, 0 0 14px #0ff;
     transition: all 126ms ease-in-out;
     transition: all 126ms ease-in-out;
     box-shadow: 0 3px 0 0 rgb(255, 0, 242);
@@ -81,3 +84,10 @@
         transform: translateZ(0);
     }
 }
+
+
+
+/* Colors :
+Dress Light Color : #604B11
+Dress Dark Color : #4E340E
+*/
