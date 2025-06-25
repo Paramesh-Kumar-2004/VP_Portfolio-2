@@ -14,7 +14,7 @@
 
 #name {
     font-size: 30px;
-    background: linear-gradient(red, blue);
+    background: red;
     background-clip: text;
     color: transparent;
     animation: fadeSlideIn 1s ease-out forwards;
