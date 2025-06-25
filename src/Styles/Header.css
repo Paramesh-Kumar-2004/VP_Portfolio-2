@@ -51,9 +51,8 @@
     color: rgb(0, 183, 255);
     transition: all 126ms ease-in-out;
     transition: all 126ms ease-in-out;
-    box-shadow: 0 3px 0 0 rgb(0, 183, 255);
+    box-shadow: 0 3px 0 0 rgb(255, 0, 242);
 }
-
 
 .lists {
     padding: 14px;
@@ -63,7 +62,7 @@
     font-weight: bolder;
 }
 
-.lists:hover{
+.lists:hover {
     /* scale: 1.2; */
     transform: translateY(-14deg);
     transition: all 126ms ease-in-out;
