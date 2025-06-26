@@ -15,7 +15,7 @@ function Home() {
 
   useEffect(() => {
     typed.current = new Typed(el.current, {
-      strings: ["Frontend Developer", 'Full Stack Developer', 'Automation Tester With Selenium'],
+      strings: ["Frontend Developer", "Backend Developer", "Web Developer", "Full Stack Developer", "Automation Tester With Selenium"],
       typeSpeed: 60,
       backSpeed: 40,
       backDelay: 1500,
