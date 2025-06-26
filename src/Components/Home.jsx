@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from 'react'
 import Typed from 'typed.js'
 
 import LinkedIn from './Social_Media/LinkedIn'
-import Instagram from './Social_Media/Instagram'
 import Github from './Social_Media/GitHub'
 import "../Styles/Home.css"
 
@@ -12,6 +11,7 @@ function Home() {
 
   const el = useRef(null);
   const typed = useRef(null);
+
 
   useEffect(() => {
     typed.current = new Typed(el.current, {
@@ -41,13 +41,10 @@ function Home() {
 
         </div>
 
-
         <div id='Social_Medias'>
           <LinkedIn />
           <Github />
         </div>
-
-
 
       </div>
     </>
