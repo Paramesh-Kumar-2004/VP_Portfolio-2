@@ -1,7 +1,7 @@
 #MainFooter {
     display: flex;
     justify-content: space-evenly;
-    padding: 3px;
+    padding: 0 0 24px 0;
 }
 
 #MainFooter a {
@@ -15,5 +15,6 @@
 #MainFooter a:hover {
     scale: 1.3;
     text-decoration: wavy;
-    color: lightgreen
+    color: lightgreen;
+    text-shadow: 0 0 3px blue, 0 0 3px blue;
 }
