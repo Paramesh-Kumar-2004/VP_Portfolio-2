@@ -11,7 +11,7 @@ function About() {
 
         <div id='Info'>
           <h3>
-            &#160;&#160;&#160;&#160;Hi, I’m Paramesh Kumar S – a Computer Science and Engineering graduate and a dedicated Full Stack Developer and Automation Enthusiast. I recently completed my B.E. from Erode Sengunthar Engineering College and am currently exploring opportunities as a fresher in the software development field.
+            &#160;&#160;&#160;&#160;Hi, I’m Paramesh Kumar S – a Computer Science and Engineering graduate and a dedicated Full Stack Developer and Automation Enthusiast. I recently completed my B.E. from Erode Sengunthar Engineering College and am currently exploring opportunities as a fresher in the full stack development field.
           </h3>
           <h3>
             &#160;&#160;&#160;&#160;I’ve built over 10 projects focused on real-world problems, including web applications, automation tools, and AI-based utilities. My experience includes a Full Stack Developer internship at Expleo Group, where I contributed to a large-scale OTA project within an agile development team. I also completed a Python internship at NovaNectar Services, enhancing my backend and scripting experience.
