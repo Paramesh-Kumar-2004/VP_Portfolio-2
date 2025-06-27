@@ -19,6 +19,9 @@ function About() {
           <h3>
             &#160;&#160;&#160;&#160;I’m currently seeking full-time opportunities as a Web Developer or Full Stack Developer, where I can grow, collaborate, and make an impact through code.
           </h3>
+          <h3>
+            &#160;&#160;&#160;&#160;When I’m not coding, you’ll find me experimenting with new tech, diving into strategy games, or enjoying cricket with friends. Let’s connect and build something awesome!
+          </h3>
         </div>
 
         <div id='MyImg'></div>
