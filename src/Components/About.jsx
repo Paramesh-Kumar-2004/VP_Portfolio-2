@@ -14,7 +14,7 @@ function About() {
             &#160;&#160;&#160;&#160;Hi, I’m Paramesh Kumar S, a passionate and self-driven Full Stack Developer with a strong foundation in web technologies and real-world project experience. I recently completed my B.E. in Computer Science and Engineering and gained hands-on development exposure through internships at Expleo Group and NovaNectar Services.
           </h3>
           <h3>
-            &#160;&#160;&#160;&#160;I’ve built over 10 projects focused on real-world problems, including web applications, automation tools, and AI-based utilities. My experience includes a Full Stack Developer internship at Expleo Group, where I contributed to a large-scale OTA project within an agile development team. I also completed a Python internship at NovaNectar Services, enhancing my backend and scripting experience.
+            &#160;&#160;&#160;&#160;I’ve built and deployed full-stack applications like an Over-the-Air (OTA) Update System using React.js, Node.js, Express.js, and MySQL, and designed my own Portfolio website to showcase my work. I enjoy turning ideas into functional, user-friendly web solutions, and I’m continuously exploring better ways to write clean and scalable code.
           </h3>
           <h3>
             &#160;&#160;&#160;&#160;I’m passionate about creating meaningful software, continuously improving my craft, and staying updated with the latest trends in technology. Outside of tech, I enjoy cricket, strategy gaming, and learning new things every day.
