@@ -17,7 +17,7 @@ function About() {
             &#160;&#160;&#160;&#160;I’ve built and deployed full-stack applications like an Over-the-Air (OTA) Update System using React.js, Node.js, Express.js, and MySQL, and designed my own Portfolio website to showcase my work. I enjoy turning ideas into functional, user-friendly web solutions, and I’m continuously exploring better ways to write clean and scalable code.
           </h3>
           <h3>
-            &#160;&#160;&#160;&#160;I’m passionate about creating meaningful software, continuously improving my craft, and staying updated with the latest trends in technology. Outside of tech, I enjoy cricket, strategy gaming, and learning new things every day.
+            &#160;&#160;&#160;&#160;I’m currently seeking full-time opportunities as a Web Developer or Full Stack Developer, where I can grow, collaborate, and make an impact through code.
           </h3>
         </div>
 
