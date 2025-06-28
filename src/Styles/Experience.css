@@ -15,7 +15,8 @@
     justify-content: center;
     align-items: center;
 }
-.Experience_Cards{
+
+.Experience_Cards {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -27,3 +28,36 @@
     transition: all 1s ease-in-out;
 }
 
+
+
+
+
+.experience-section {
+    margin-top: 20px;
+}
+
+.experience-item {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.experience-item h3 {
+    margin-bottom: 5px;
+}
+
+.experience-item .company {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.experience-item .duration {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.experience-item .description {
+    line-height: 1.5;
+}
