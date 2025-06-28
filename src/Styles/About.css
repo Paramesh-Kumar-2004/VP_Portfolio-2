@@ -7,8 +7,13 @@
     font-family: serif;
 }
 
-#Info{
+#Info {
     width: 60%;
+}
+
+.UnderLine {
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
 }
 
 #Contents {
@@ -21,11 +26,11 @@
     padding: 14px;
 }
 
-#Contents h3{
+#Contents h3 {
     padding: 14px;
 }
 
-#MyImg{
+#MyImg {
     padding: 14px;
     margin: 14px;
     height: 160px;
