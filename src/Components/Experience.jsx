@@ -1,7 +1,7 @@
 // import React from 'react'
 
 
-import "../Styles/Experience.css"
+// import "../Styles/Experience.css"
 
 
 
@@ -46,6 +46,8 @@ import "../Styles/Experience.css"
 
 
 import React from 'react';
+import "../Styles/Experience.css"
+
 
 function Experience() {
 
