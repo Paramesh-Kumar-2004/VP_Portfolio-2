@@ -11,6 +11,9 @@
     background: blue;
     border-radius: 14px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .Experience_Cards{
     display: flex;

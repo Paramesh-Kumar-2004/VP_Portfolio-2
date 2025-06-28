@@ -13,9 +13,11 @@ function Experience() {
 
                 <div className="Experience_Cards">
                     <div className="Experience_Card">
-                        <h4>6 Months</h4>
-                        <h5>Expleo Groups</h5>
-                        <h5>Bangalore</h5>
+                        <div>
+                            <h4>6 Months</h4>
+                            <h5>Expleo Groups</h5>
+                            <h5>Bangalore</h5>
+                        </div>
                     </div>
                 </div>
                 <div className="Experience_Cards">
