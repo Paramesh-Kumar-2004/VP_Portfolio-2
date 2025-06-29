@@ -36,7 +36,6 @@ function Experience() {
                     </div>
                 ))}
 
-
             </div>
         </div>
     )
