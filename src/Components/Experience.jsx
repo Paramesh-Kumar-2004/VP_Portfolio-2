@@ -17,7 +17,7 @@ function Experience() {
         },
         {
             id: 2,
-            position: 'Web Developer',
+            position: 'Python Developer Intern',
             company: 'ABC Web Solutions',
             duration: 'Jun 2023 - Sep 2024',
             description: 'Built responsive websites for various clients, optimized for performance and SEO.',

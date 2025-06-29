@@ -25,7 +25,11 @@
     margin-bottom: 10px;
 }
 
+.projectname {
+    /* color: green; */
+    margin-bottom: 5px;
 
+}
 
 .experience-item .description {
     line-height: 1.5;
