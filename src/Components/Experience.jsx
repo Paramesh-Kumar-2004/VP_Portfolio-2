@@ -18,8 +18,8 @@ function Experience() {
         {
             id: 2,
             position: 'Python Developer Intern',
-            company: 'ABC Web Solutions',
-            duration: 'Jun 2023 - Sep 2024',
+            company: 'NovaNectar Services Pvt. Ltd.',
+            duration: ' August 10, 2024 to September 10, 2024',
             description: 'Built responsive websites for various clients, optimized for performance and SEO.',
         },
     ];
