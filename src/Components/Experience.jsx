@@ -9,6 +9,7 @@ function Experience() {
     const experienceData = [
         {
             id: 1,
+            projectname: "OTA - Over The Air",
             position: 'Full Stack Developer Intern',
             company: 'Expleo Technologies',
             duration: 'Oct 2024 - Apr 2025',
@@ -31,6 +32,7 @@ function Experience() {
                     <div key={experience.id} className="experience-item">
                         <h3>{experience.position}</h3>
                         <p className="company">{experience.company}</p>
+                        <p className='projectname'><b>Project : </b> {experience.projectname}</p>
                         <p className="duration">{experience.duration}</p>
                         <p className="description">{experience.description}</p>
                     </div>
