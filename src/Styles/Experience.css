@@ -3,13 +3,10 @@
     /* background: gray; */
 }
 
-.experience-section {
-    margin-top: 20px;
-}
-
 .experience-item {
     margin-bottom: 20px;
-    padding: 10px;
+    padding: 14px;
+    margin: 3px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
