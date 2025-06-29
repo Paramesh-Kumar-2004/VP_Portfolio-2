@@ -12,7 +12,7 @@ function Experience() {
             projectname: "OTA - Over The Air",
             position: 'Full Stack Developer Intern',
             company: 'Expleo Technologies',
-            duration: 'Oct 2024 - Apr 2025',
+            duration: 'Oct 2024 - May 2025',
             description: 'Developed frontend and backend features for client projects using React.js, Node.js, and MongoDB.',
         },
         {
