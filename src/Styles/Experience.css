@@ -4,9 +4,8 @@
 }
 
 .experience-item {
-    margin-bottom: 20px;
     padding: 14px;
-    margin: 3px;
+    margin: 14px 3px 26px 3px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
