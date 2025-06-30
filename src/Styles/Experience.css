@@ -7,56 +7,12 @@
     /* background: skyblue; */
 }
 
-.experience-item {
-    padding: 14px;
-    margin: 14px 3px 26px 3px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-.experience-item h3 {
-    margin-bottom: 5px;
-}
-
-.experience-item .company {
-    font-style: italic;
-    margin-bottom: 5px;
-}
-
-.experience-item .duration {
-    font-size: 14px;
-    color: #666;
-    margin-bottom: 10px;
-}
-
-.projectname {
-    /* color: green; */
-    margin-bottom: 5px;
-
-}
-
-.experience-item .description {
-    line-height: 1.5;
-}
 
 
 
 
-#Main_Experience_Div {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
-}
 
-#Title {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 20px;
-    text-align: center;
-    color: #333;
-}
+
 
 .experience-item {
     background: white;
