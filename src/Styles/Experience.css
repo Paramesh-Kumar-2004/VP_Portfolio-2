@@ -10,28 +10,34 @@
 .experience-item {
     background: black;
     padding: 20px;
-    margin: 10px 0;
+    margin: 50px 0 0 0;
     border-radius: 8px;
     box-shadow: 0 2px 8px gray;
+    cursor: pointer;
+}
+
+.experience-item:hover {
+    scale: 1.0126;
+    transition: all ease-in-out;
 }
 
 .company {
     font-weight: bold;
-    color: #555;
+    color: white;
 }
 
 .projectname {
     margin-top: 5px;
-    color: #777;
+    color: white;
 }
 
 .duration {
     font-size: 14px;
-    color: #999;
+    color: white;
 }
 
 .description {
     margin-top: 10px;
     line-height: 1.5;
-    color: #444;
+    color: white;
 }
