@@ -18,7 +18,7 @@
 
 .experience-item:hover {
     scale: 1.0126;
-    transition: all ease-in-out;
+    transition: all 126ms ease-in-out;
     box-shadow: 0 0 14px 3px gray, 0 0 14px 3px skyblue;
 }
 
