@@ -1,6 +1,10 @@
 #Main_Experience_Div {
     min-height: 100vh;
-    /* background: gray; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    /* background: skyblue; */
 }
 
 .experience-item {
@@ -33,4 +37,52 @@
 
 .experience-item .description {
     line-height: 1.5;
+}
+
+
+
+
+#Main_Experience_Div {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#Title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+}
+
+.experience-item {
+    background: white;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.company {
+    font-weight: bold;
+    color: #555;
+}
+
+.projectname {
+    margin-top: 5px;
+    color: #777;
+}
+
+.duration {
+    font-size: 14px;
+    color: #999;
+}
+
+.description {
+    margin-top: 10px;
+    line-height: 1.5;
+    color: #444;
 }
