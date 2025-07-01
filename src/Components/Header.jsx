@@ -8,6 +8,7 @@ function Header() {
       <nav id='nav'>
         <h2 id='name'>Paramesh Kumar S </h2>
         <ul id='links'>
+          <li id="Menu">#</li>
           <li className='lists'><a href="#Main_Home_Div">Home</a></li>
           <li className='lists'><a href="#Main_About_Div">About</a></li>
           <li className='lists'><a href="#Main_Skill_Div">Skills</a></li>
