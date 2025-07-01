@@ -4,7 +4,7 @@ import "../Styles/Header.css"
 
 function Header() {
 
-  const [OpenMenu, setOpenMeu] = useState(false)
+  const [OpenMenu, setOpenMeu] = useState(true)
   console.log(OpenMenu)
 
   function ChangeMenu() {
