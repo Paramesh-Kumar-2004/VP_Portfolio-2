@@ -18,12 +18,12 @@ function Header() {
         <h3 id="Menu" onClick={ChangeMenu}>#</h3>
         {OpenMenu && (
           <ul id='links'>
-            <li className='lists' onClick={ChangeMenu}><a href="#Main_Home_Div">Home</a></li>
-            <li className='lists' onClick={ChangeMenu}><a href="#Main_About_Div">About</a></li>
-            <li className='lists' onClick={ChangeMenu}><a href="#Main_Skill_Div">Skills</a></li>
-            <li className='lists' onClick={ChangeMenu}><a href="#Main_Project_Div">Projects</a></li>
-            <li className='lists' onClick={ChangeMenu}><a href="#Main_Experience_Div">Experience</a></li>
-            <li className='lists' onClick={ChangeMenu}><a href="#Main_Contact_Div">Contact</a></li>
+            <li className='lists'><a onClick={ChangeMenu} href="#Main_Home_Div">Home</a></li>
+            <li className='lists'><a onClick={ChangeMenu} href="#Main_About_Div">About</a></li>
+            <li className='lists'><a onClick={ChangeMenu} href="#Main_Skill_Div">Skills</a></li>
+            <li className='lists'><a onClick={ChangeMenu} href="#Main_Project_Div">Projects</a></li>
+            <li className='lists'><a onClick={ChangeMenu} href="#Main_Experience_Div">Experience</a></li>
+            <li className='lists'><a onClick={ChangeMenu} href="#Main_Contact_Div">Contact</a></li>
           </ul>
         )}
       </nav>
