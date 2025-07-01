@@ -20,6 +20,7 @@
     animation: fadeSlideIn 2s ease-in-out forwards;
     display: flex;
     min-height: 50vh;
+    max-width: 100%;
     align-items: center;
     justify-content: space-between;
     gap: 26px;
