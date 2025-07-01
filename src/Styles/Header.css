@@ -101,7 +101,7 @@
         position: fixed;
         width: 100%;
         padding: 3px;
-        background: red;
+        /* background: red; */
         display: flex;
         z-index: 14;
         box-shadow: inset -14px 0 26px 3px palevioletred;
