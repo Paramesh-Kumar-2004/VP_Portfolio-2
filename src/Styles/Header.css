@@ -18,10 +18,6 @@
         display: none;
     }
 
-    .hidden {
-        display: none !important;
-    }
-
     #name {
         font-size: 30px;
         background: skyblue;
@@ -84,6 +80,16 @@
 
 }
 
+.hide {
+    display: none;
+}
+
+.show {
+    display: flex;
+    flex-direction: column;
+}
+
+
 @keyframes fadeSlideIn {
     from {
         opacity: 0;
@@ -107,49 +113,42 @@
         padding: 3px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
         z-index: 14;
         box-shadow: inset -14px 0 26px 3px palevioletred;
     }
 
-    #linksPh {
+    #Menu {
+        display: block;
+        cursor: pointer;
+        padding: 12px;
+        color: white;
+        font-size: 22px;
+    }
+
+    #links {
         position: absolute;
-        top: 0;
+        top: 60px;
         right: 14px;
-        border-radius: 14px;
-        box-shadow: 0px 0 26px 3px gray;
         background: rgb(57, 64, 66);
-        justify-content: space-evenly;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 10px;
+        border-radius: 14px;
+        padding: 10px 20px;
+        box-shadow: 0px 0 26px 3px gray;
         list-style: none;
+        z-index: 100;
     }
 
     .lists {
         padding: 10px 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        text-align: center;
     }
 
     .lists a {
-        font-size: 26px;
+        font-size: 20px;
         text-decoration: none;
         background: linear-gradient(orangered, goldenrod);
         background-clip: text;
         color: transparent;
-        animation: fadeSlideIn 1s ease-out forwards;
-    }
-}
-
-@media (max-width: 480px) {
-    #name {
-        font-size: 22px;
-    }
-
-    .lists a {
-        font-size: 18px;
-    }
-
-    .lists {
-        padding: 8px 0;
     }
 }
