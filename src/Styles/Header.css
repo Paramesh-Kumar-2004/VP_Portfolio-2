@@ -18,6 +18,10 @@
         display: none;
     }
 
+    .hidden {
+        display: none !important;
+    }
+
     #name {
         font-size: 30px;
         background: skyblue;
@@ -107,7 +111,7 @@
         box-shadow: inset -14px 0 26px 3px palevioletred;
     }
 
-    #links {
+    #linksPh {
         position: absolute;
         top: 0;
         right: 14px;
