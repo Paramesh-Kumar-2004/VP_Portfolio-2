@@ -15,17 +15,16 @@ function Header() {
     <div id="Main_Header_Div">
       <nav id='nav'>
         <h2 id='name'>Paramesh Kumar S </h2>
-        <h3 id="Menu" onClick={ChangeMenu}>#</h3>
-        {OpenMenu && (
-          <ul id='links'>
-            <li className='lists'><a onClick={ChangeMenu} href="#Main_Home_Div">Home</a></li>
-            <li className='lists'><a onClick={ChangeMenu} href="#Main_About_Div">About</a></li>
-            <li className='lists'><a onClick={ChangeMenu} href="#Main_Skill_Div">Skills</a></li>
-            <li className='lists'><a onClick={ChangeMenu} href="#Main_Project_Div">Projects</a></li>
-            <li className='lists'><a onClick={ChangeMenu} href="#Main_Experience_Div">Experience</a></li>
-            <li className='lists'><a onClick={ChangeMenu} href="#Main_Contact_Div">Contact</a></li>
-          </ul>
-        )}
+        <h3 id="Menu" onClick={ChangeMenu}>MENU</h3>
+        <ul id='links'>
+          <li className='lists'><a onClick={ChangeMenu} href="#Main_Home_Div">Home</a></li>
+          <li className='lists'><a onClick={ChangeMenu} href="#Main_About_Div">About</a></li>
+          <li className='lists'><a onClick={ChangeMenu} href="#Main_Skill_Div">Skills</a></li>
+          <li className='lists'><a onClick={ChangeMenu} href="#Main_Project_Div">Projects</a></li>
+          <li className='lists'><a onClick={ChangeMenu} href="#Main_Experience_Div">Experience</a></li>
+          <li className='lists'><a onClick={ChangeMenu} href="#Main_Contact_Div">Contact</a></li>
+        </ul>
+
       </nav>
     </div>
   )
