@@ -102,9 +102,6 @@
     }
 }
 
-
-
-
 @media (max-width: 768px) {
     #nav {
         top: 0;
@@ -128,7 +125,7 @@
 
     #links {
         position: absolute;
-        top: 60px;
+        top: 0;
         right: 14px;
         background: rgb(57, 64, 66);
         border-radius: 14px;
