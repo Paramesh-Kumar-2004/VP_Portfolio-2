@@ -16,6 +16,7 @@ function Header() {
       <nav id='nav'>
         <h2 id='name'>Paramesh Kumar S </h2>
         <h3 id="Menu" onClick={ChangeMenu}>MENU</h3>
+
         <ul id='links'>
           <li className='lists'><a onClick={ChangeMenu} href="#Main_Home_Div">Home</a></li>
           <li className='lists'><a onClick={ChangeMenu} href="#Main_About_Div">About</a></li>

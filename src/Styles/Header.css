@@ -101,16 +101,24 @@
         position: fixed;
         width: 100%;
         padding: 3px;
-        /* background: red; */
         display: flex;
+        justify-content: space-between;
         z-index: 14;
         box-shadow: inset -14px 0 26px 3px palevioletred;
     }
 
     #links {
-        gap: 6px;
-        width: 100%;
-        margin-top: 10px;
+        position: absolute;
+        top: 0;
+        right: 14px;
+        border-radius: 14px;
+        box-shadow: 0px 0 26px 3px gray;
+        background: rgb(57, 64, 66);
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        list-style: none;
     }
 
     .lists {
@@ -119,7 +127,12 @@
     }
 
     .lists a {
-        font-size: 20px;
+        font-size: 26px;
+        text-decoration: none;
+        background: linear-gradient(orangered, goldenrod);
+        background-clip: text;
+        color: transparent;
+        animation: fadeSlideIn 1s ease-out forwards;
     }
 }
 
