@@ -78,16 +78,18 @@
         transition: all 126ms ease-in-out;
     }
 
+    .show {
+        display: flex;
+        flex-direction: row;
+    }
+
 }
 
 .hide {
     display: none;
 }
 
-.show {
-    display: flex;
-    flex-direction: column;
-}
+
 
 
 @keyframes fadeSlideIn {
@@ -107,6 +109,7 @@
         top: 0;
         position: fixed;
         width: 100%;
+        min-height: 52px;
         padding: 3px;
         display: flex;
         justify-content: space-between;
