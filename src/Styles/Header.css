@@ -91,19 +91,6 @@
 
 
 
-
-@keyframes fadeSlideIn {
-    from {
-        opacity: 0;
-        transform: translateZ(20px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translateZ(0);
-    }
-}
-
 @media (max-width: 768px) {
     #nav {
         top: 0;
@@ -150,5 +137,24 @@
         background: linear-gradient(orangered, goldenrod);
         background-clip: text;
         color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+@keyframes fadeSlideIn {
+    from {
+        opacity: 0;
+        transform: translateZ(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateZ(0);
     }
 }
