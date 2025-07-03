@@ -26,7 +26,7 @@ function Contact() {
     e.preventDefault();
 
     // Send Mail
-    const mailtoLink = `mailto:someone@example.com?subject=Message from ${FormData.UserName}&body=Name: ${FormData.UserName}%0AEmail: ${FormData.UserEmail}%0AMessage: ${FormData.Message}`;
+    const mailtoLink = `mailto:svpparameshkumar2004@gmail.com?subject=Message from ${FormData.UserName}&body=Name: ${FormData.UserName}%0AEmail: ${FormData.UserEmail}%0AMessage: ${FormData.Message}`;
     window.location.href = mailtoLink;
 
     setIsSuccess(true);
@@ -46,7 +46,6 @@ function Contact() {
   return (
     <div id='Main_Contact_Div'>
       <h1 id='Title'>Contact</h1>
-
 
       <form onSubmit={HandleSubmit} id='form'>
         <div id="UserName">
