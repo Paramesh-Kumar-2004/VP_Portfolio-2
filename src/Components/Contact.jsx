@@ -89,7 +89,6 @@ function Contact() {
 
         {isSuccess && <p id="SuccessMessage">Mail app opened successfully ✅</p>}
 
-
       </form>
     </div>
   )
