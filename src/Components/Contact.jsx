@@ -21,12 +21,14 @@ function Contact() {
     }));
   }
 
-
   const HandleSubmit = (e) => {
     e.preventDefault();
 
     // Send Mail
-    const mailtoLink = `mailto:svpparameshkumar2004@gmail.com?subject=Message from ${FormData.UserName}&body=Name: ${FormData.UserName}%0AEmail: ${FormData.UserEmail}%0AMessage: ${FormData.Message}`;
+    const subject = `Message from ${FormData.UserName}`;
+    const body = `Name: ${FormData.UserName}%0AEmail: ${FormData.UserEmail}%0AMessage: ${FormData.Message}`;
+    const mailtoLink = `mailto:svpparameshkumar2004@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+
     window.location.href = mailtoLink;
 
     setIsSuccess(true);
