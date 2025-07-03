@@ -10,6 +10,8 @@ function Contact() {
     UserEmail: "",
     Message: ""
   })
+  const [isSuccess, setIsSuccess] = useState(false);
+
 
 
   const HandleOnChange = (e) => {
@@ -22,6 +24,13 @@ function Contact() {
 
   const HandleSubmit = (e) => {
     e.preventDefault();
+
+    // Send Mail
+    const mailtoLink = `mailto:someone@example.com?subject=Message from ${FormData.UserName}&body=Name: ${FormData.UserName}%0AEmail: ${FormData.UserEmail}%0AMessage: ${FormData.Message}`;
+    window.location.href = mailtoLink;
+
+    setIsSuccess(true);
+
     console.log(FormData)
     console.log("User Name :", FormData.UserName)
     console.log("User Email :", FormData.UserEmail)
@@ -77,6 +86,9 @@ function Contact() {
         </div>
 
         <button type="submit" id='SendButton'>Send</button>
+
+        {isSuccess && <p id="SuccessMessage">Mail app opened successfully ✅</p>}
+
 
       </form>
     </div>
