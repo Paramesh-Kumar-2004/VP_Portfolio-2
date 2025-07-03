@@ -10,11 +10,15 @@ const transporter = nodemailer.createTransport({
     }
 });
 
+const name = 'VP';
+const email = 'vp@gmail.com';
+const message = 'Hi VP';
+
 const mailOptions = {
     from: 'svpparameshkumar2004@gmail.com',
     to: 'svpparameshkumar2004@gmail.com',
     subject: 'Nodemailer Test',
-    text: 'This is a test email using Gmail SMTP and Nodemailer'
+    text: `Name: ${name}\nEmail: ${email}\nMessage: ${message}`
 };
 
 transporter.sendMail(mailOptions, (error, info) => {
@@ -23,3 +27,5 @@ transporter.sendMail(mailOptions, (error, info) => {
     }
     console.log('✅ Email sent:', info.response);
 });
+
+export function SendMail()
