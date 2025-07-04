@@ -16,7 +16,7 @@
 
 .Cards {
     height: 180px;
-    width: 250px;
+    width: 200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,4 +160,15 @@
         transform: translateY(-10px);
         opacity: 0.6;
     }
+}
+
+
+
+
+
+@media (max-width:768px) {
+    .Cards {
+        width: 150px;
+    }
+
 }
