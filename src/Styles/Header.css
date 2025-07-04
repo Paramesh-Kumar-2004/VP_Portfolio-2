@@ -5,12 +5,12 @@
         position: fixed;
         width: 100%;
         padding: 3px;
-        /* background: black; */
         display: flex;
         justify-content: space-between;
         align-items: center;
         z-index: 14;
         /* box-shadow: inset -14px 0 26px 3px skyblue; */
+        background: black;
         box-shadow: inset -14px 0 26px 3px palevioletred;
     }
 
@@ -139,10 +139,6 @@
         color: transparent;
     }
 }
-
-
-
-
 
 
 
