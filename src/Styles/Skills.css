@@ -44,6 +44,11 @@
     cursor: pointer;
 }
 
+.Circle:hover {
+    box-shadow: 0 0 26px 3px skyblue;
+    transition: all 500ms ease-in-out;
+}
+
 
 /* Apply images to individual skills */
 #Python {
