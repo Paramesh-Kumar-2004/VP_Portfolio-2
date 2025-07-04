@@ -48,6 +48,18 @@
 }
 
 
+@media (max-width:768px){
+    #Contents{
+        display: block;
+    }
+
+    #Info{
+        width: 100%;
+        /* word-wrap: break-word; */
+    }
+}
+
+
 @keyframes fadeSlideIn {
     from {
         opacity: 0;
