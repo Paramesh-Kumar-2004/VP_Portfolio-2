@@ -12,7 +12,6 @@ function Home() {
   const el = useRef(null);
   const typed = useRef(null);
 
-
   useEffect(() => {
     typed.current = new Typed(el.current, {
       strings: ["Frontend Developer", "Backend Developer", "Web Developer", "Full Stack Developer", "Automation Tester With Selenium"],
@@ -26,7 +25,6 @@ function Home() {
       typed.current.destroy();
     };
   }, []);
-
 
   return (
     <>

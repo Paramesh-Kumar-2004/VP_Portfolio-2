@@ -21,7 +21,6 @@
     background-color: rgba(0, 0, 0, 0.5);
 }
 
-
 #Home_Content {
     display: flex;
     flex-direction: column;
@@ -59,7 +58,6 @@
     column-gap: 26px;
     padding: 14px;
 }
-
 
 
 
