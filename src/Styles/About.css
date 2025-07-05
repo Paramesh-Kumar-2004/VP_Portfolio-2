@@ -44,21 +44,27 @@
     background-size: cover;
     background-repeat: no-repeat;
     /* box-shadow: 0px 0px 10px 10px rgb(231, 220, 155); */
-    box-shadow: 0px 0px 14px 5px skyblue;
+    box-shadow: 0px 0px 14px 3px skyblue;
+}
+
+#MyImg:hover {
+    scale: 1.1;
+    transition: all 0.2004s ease-in-out;
+    box-shadow: 0px 0px 14px 3px pink;
 }
 
 
-@media (max-width:768px){
-    #Contents{
+@media (max-width:768px) {
+    #Contents {
         display: block;
     }
 
-    #Info{
+    #Info {
         width: 100%;
         /* word-wrap: break-word; */
     }
 
-    #MyImg{
+    #MyImg {
         padding: 0;
         margin: 0;
         align-content: center;
