@@ -27,12 +27,6 @@
     row-gap: 14px;
 }
 
-/* #Home_Content b {
-    background: linear-gradient(darkblue, skyblue);
-    background-clip: text;
-    color: transparent;
-} */
-
 #Home_Content b {
     background: linear-gradient(to right, rgb(255, 230, 1), rgb(0, 255, 85), blue);
     background-clip: text;
