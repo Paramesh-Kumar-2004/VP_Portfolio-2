@@ -11,7 +11,7 @@
     overflow-x: hidden;
 
     background-image: url("../Images/Wallpaper_5.jpg");
-    animation: slideshow 26s infinite;
+    /* animation: slideshow 26s infinite; */
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
